@@ -1594,3 +1594,38 @@
 [2024-11-06T01:54:38.724+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:54:38.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-06T01:54:38.741+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:54:38.741+0000] {dag.py:4180} INFO - Setting next_dagrun for slack-message-tutorial to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
 [2024-11-06T01:54:38.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_slack_message_tutorial.py took 0.064 seconds
+[2024-11-06T01:55:08.948+0000] {processor.py:186} INFO - Started process (PID=3308) to work on /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:55:08.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_slack_message_tutorial.py for tasks to queue
+[2024-11-06T01:55:08.952+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:55:08.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:55:08.960+0000] {processor.py:925} INFO - DAG(s) 'slack-message-tutorial' retrieved from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:55:08.979+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:55:08.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:55:09.000+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:55:09.000+0000] {dag.py:4180} INFO - Setting next_dagrun for slack-message-tutorial to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-06T01:55:09.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_slack_message_tutorial.py took 0.082 seconds
+[2024-11-06T01:55:39.292+0000] {processor.py:186} INFO - Started process (PID=3317) to work on /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:55:39.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_slack_message_tutorial.py for tasks to queue
+[2024-11-06T01:55:39.295+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:55:39.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:55:39.302+0000] {processor.py:925} INFO - DAG(s) 'slack-message-tutorial' retrieved from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:55:39.319+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:55:39.318+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:55:39.336+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:55:39.336+0000] {dag.py:4180} INFO - Setting next_dagrun for slack-message-tutorial to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-06T01:55:39.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_slack_message_tutorial.py took 0.062 seconds
+[2024-11-06T01:56:09.557+0000] {processor.py:186} INFO - Started process (PID=3326) to work on /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:56:09.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_slack_message_tutorial.py for tasks to queue
+[2024-11-06T01:56:09.562+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:56:09.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:56:09.570+0000] {processor.py:925} INFO - DAG(s) 'slack-message-tutorial' retrieved from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:56:09.588+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:56:09.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:56:09.606+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:56:09.606+0000] {dag.py:4180} INFO - Setting next_dagrun for slack-message-tutorial to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-06T01:56:09.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_slack_message_tutorial.py took 0.070 seconds
+[2024-11-06T01:56:39.807+0000] {processor.py:186} INFO - Started process (PID=3335) to work on /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:56:39.808+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_slack_message_tutorial.py for tasks to queue
+[2024-11-06T01:56:39.813+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:56:39.813+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:56:39.826+0000] {processor.py:925} INFO - DAG(s) 'slack-message-tutorial' retrieved from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:56:39.854+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:56:39.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:56:39.880+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:56:39.880+0000] {dag.py:4180} INFO - Setting next_dagrun for slack-message-tutorial to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-06T01:56:39.907+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_slack_message_tutorial.py took 0.106 seconds
+[2024-11-06T01:57:10.154+0000] {processor.py:186} INFO - Started process (PID=3344) to work on /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:57:10.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/send_slack_message_tutorial.py for tasks to queue
+[2024-11-06T01:57:10.157+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:57:10.157+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:57:10.164+0000] {processor.py:925} INFO - DAG(s) 'slack-message-tutorial' retrieved from /opt/airflow/dags/send_slack_message_tutorial.py
+[2024-11-06T01:57:10.180+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:57:10.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:57:10.197+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:57:10.197+0000] {dag.py:4180} INFO - Setting next_dagrun for slack-message-tutorial to 2024-11-05 00:00:00+00:00, run_after=2024-11-06 00:00:00+00:00
+[2024-11-06T01:57:10.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/send_slack_message_tutorial.py took 0.061 seconds

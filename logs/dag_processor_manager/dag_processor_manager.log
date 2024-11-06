@@ -34829,3 +34829,43 @@ File Path                                         PID    Runtime      # DAGs    
 /opt/airflow/dags/send_slack_message_tutorial.py                           1           0  0.08s           2024-11-06T01:54:38                      12
 /opt/airflow/dags/self-tutorial-dag.py                                     1           0  0.07s           2024-11-06T01:54:38                      12
 ================================================================================
+[2024-11-06T01:55:21.164+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stock_market_summary.py                                  1           0  0.17s           2024-11-06T01:55:09                      12
+/opt/airflow/dags/send_slack_message_tutorial.py                           1           0  0.09s           2024-11-06T01:55:09                      12
+/opt/airflow/dags/self-tutorial-dag.py                                     1           0  0.07s           2024-11-06T01:55:09                      12
+================================================================================
+[2024-11-06T01:55:51.429+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stock_market_summary.py                                  1           0  0.15s           2024-11-06T01:55:39                      12
+/opt/airflow/dags/send_slack_message_tutorial.py                           1           0  0.07s           2024-11-06T01:55:39                      12
+/opt/airflow/dags/self-tutorial-dag.py                                     1           0  0.07s           2024-11-06T01:55:39                      12
+================================================================================
+[2024-11-06T01:56:21.686+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stock_market_summary.py                                  1           0  0.16s           2024-11-06T01:56:09                      12
+/opt/airflow/dags/send_slack_message_tutorial.py                           1           0  0.08s           2024-11-06T01:56:09                      12
+/opt/airflow/dags/self-tutorial-dag.py                                     1           0  0.07s           2024-11-06T01:56:09                      12
+================================================================================
+[2024-11-06T01:56:52.041+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/stock_market_summary.py                                  1           0  0.19s           2024-11-06T01:56:39                      12
+/opt/airflow/dags/send_slack_message_tutorial.py                           1           0  0.12s           2024-11-06T01:56:39                      12
+/opt/airflow/dags/self-tutorial-dag.py                                     1           0  0.08s           2024-11-06T01:56:39                      12
+================================================================================
