@@ -1,0 +1,20 @@
+[2024-11-01T07:17:47.115+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-01T07:17:47.132+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: stock-market-summary.stock_list manual__2024-11-01T07:17:45.970885+00:00 [queued]>
+[2024-11-01T07:17:47.138+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: stock-market-summary.stock_list manual__2024-11-01T07:17:45.970885+00:00 [queued]>
+[2024-11-01T07:17:47.139+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-01T07:17:47.155+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): stock_list> on 2024-11-01 07:17:45.970885+00:00
+[2024-11-01T07:17:47.162+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=190) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-01T07:17:47.163+0000] {standard_task_runner.py:72} INFO - Started process 191 to run task
+[2024-11-01T07:17:47.163+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'stock-market-summary', 'stock_list', 'manual__2024-11-01T07:17:45.970885+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/stock_market_summary.py', '--cfg-path', '/tmp/tmpac4l1_z1']
+[2024-11-01T07:17:47.165+0000] {standard_task_runner.py:105} INFO - Job 68: Subtask stock_list
+[2024-11-01T07:17:47.206+0000] {task_command.py:467} INFO - Running <TaskInstance: stock-market-summary.stock_list manual__2024-11-01T07:17:45.970885+00:00 [running]> on host 2839f63d218a
+[2024-11-01T07:17:47.317+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='stock-market-summary' AIRFLOW_CTX_TASK_ID='stock_list' AIRFLOW_CTX_EXECUTION_DATE='2024-11-01T07:17:45.970885+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-01T07:17:45.970885+00:00'
+[2024-11-01T07:17:47.317+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-01T07:17:47.329+0000] {python.py:240} INFO - Done. Returned value was: [{'code': 'TSLA', 'name_en': 'Tesla', 'name_kr': '테슬라', 'stock_index': 'NASDAQ'}, {'code': 'AAPL', 'name_en': 'Apple', 'name_kr': '애플', 'stock_index': 'NASDAQ'}, {'code': 'NVDA', 'name_en': 'NVidia', 'name_kr': '엔비디아', 'stock_index': 'NASDAQ'}, {'code': 'MSFT', 'name_en': 'Microsoft', 'name_kr': '마이크로소프트', 'stock_index': 'NASDAQ'}]
+[2024-11-01T07:17:47.352+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-01T07:17:47.352+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=stock-market-summary, task_id=stock_list, run_id=manual__2024-11-01T07:17:45.970885+00:00, execution_date=20241101T071745, start_date=20241101T071747, end_date=20241101T071747
+[2024-11-01T07:17:47.378+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-01T07:17:47.408+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-01T07:17:47.411+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,19 @@
+[2024-11-04T01:27:23.383+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-04T01:27:23.398+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: slack-message-tutorial.send_message_to_slack scheduled__2019-11-22T00:00:00+00:00 [queued]>
+[2024-11-04T01:27:23.407+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: slack-message-tutorial.send_message_to_slack scheduled__2019-11-22T00:00:00+00:00 [queued]>
+[2024-11-04T01:27:23.407+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-04T01:27:23.450+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): send_message_to_slack> on 2019-11-22 00:00:00+00:00
+[2024-11-04T01:27:23.456+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=129) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-04T01:27:23.458+0000] {standard_task_runner.py:72} INFO - Started process 135 to run task
+[2024-11-04T01:27:23.460+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'slack-message-tutorial', 'send_message_to_slack', 'scheduled__2019-11-22T00:00:00+00:00', '--job-id', '149', '--raw', '--subdir', 'DAGS_FOLDER/send_slack_message_tutorial.py', '--cfg-path', '/tmp/tmp_fx_1s2x']
+[2024-11-04T01:27:23.460+0000] {standard_task_runner.py:105} INFO - Job 149: Subtask send_message_to_slack
+[2024-11-04T01:27:23.509+0000] {task_command.py:467} INFO - Running <TaskInstance: slack-message-tutorial.send_message_to_slack scheduled__2019-11-22T00:00:00+00:00 [running]> on host 5a41fc77ef88
+[2024-11-04T01:27:23.602+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='slack-message-tutorial' AIRFLOW_CTX_TASK_ID='send_message_to_slack' AIRFLOW_CTX_EXECUTION_DATE='2019-11-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2019-11-22T00:00:00+00:00'
+[2024-11-04T01:27:23.603+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-04T01:27:23.618+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-04T01:27:23.632+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-04T01:27:23.633+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=slack-message-tutorial, task_id=send_message_to_slack, run_id=scheduled__2019-11-22T00:00:00+00:00, execution_date=20191122T000000, start_date=20241104T012723, end_date=20241104T012723
+[2024-11-04T01:27:23.673+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-04T01:27:23.682+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

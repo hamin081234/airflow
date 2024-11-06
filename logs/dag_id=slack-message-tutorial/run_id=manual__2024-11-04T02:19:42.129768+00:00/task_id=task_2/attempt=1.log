@@ -1,0 +1,22 @@
+[2024-11-04T02:19:45.779+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-04T02:19:45.793+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: slack-message-tutorial.task_2 manual__2024-11-04T02:19:42.129768+00:00 [queued]>
+[2024-11-04T02:19:45.802+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: slack-message-tutorial.task_2 manual__2024-11-04T02:19:42.129768+00:00 [queued]>
+[2024-11-04T02:19:45.802+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2024-11-04T02:19:45.815+0000] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): task_2> on 2024-11-04 02:19:42.129768+00:00
+[2024-11-04T02:19:45.822+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=877) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-11-04T02:19:45.823+0000] {standard_task_runner.py:72} INFO - Started process 878 to run task
+[2024-11-04T02:19:45.823+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'slack-message-tutorial', 'task_2', 'manual__2024-11-04T02:19:42.129768+00:00', '--job-id', '169', '--raw', '--subdir', 'DAGS_FOLDER/send_slack_message_tutorial.py', '--cfg-path', '/tmp/tmpc3j5vjdd']
+[2024-11-04T02:19:45.824+0000] {standard_task_runner.py:105} INFO - Job 169: Subtask task_2
+[2024-11-04T02:19:45.866+0000] {task_command.py:467} INFO - Running <TaskInstance: slack-message-tutorial.task_2 manual__2024-11-04T02:19:42.129768+00:00 [running]> on host 5a41fc77ef88
+[2024-11-04T02:19:45.945+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='slack-message-tutorial' AIRFLOW_CTX_TASK_ID='task_2' AIRFLOW_CTX_EXECUTION_DATE='2024-11-04T02:19:42.129768+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-04T02:19:42.129768+00:00'
+[2024-11-04T02:19:45.946+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-04T02:19:45.968+0000] {baseoperator.py:405} WARNING - SlackAPIPostOperator.execute cannot be called outside TaskInstance!
+[2024-11-04T02:19:45.979+0000] {base.py:84} INFO - Retrieving connection 'slack_api_default'
+[2024-11-04T02:19:46.368+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-04T02:19:46.376+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-04T02:19:46.377+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=slack-message-tutorial, task_id=task_2, run_id=manual__2024-11-04T02:19:42.129768+00:00, execution_date=20241104T021942, start_date=20241104T021945, end_date=20241104T021946
+[2024-11-04T02:19:46.399+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-04T02:19:46.414+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-04T02:19:46.417+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
