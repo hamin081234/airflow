@@ -1489,3 +1489,108 @@
 [2024-11-06T01:47:04.014+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:47:04.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-06T01:47:04.035+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:47:04.035+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
 [2024-11-06T01:47:04.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.162 seconds
+[2024-11-06T01:47:34.237+0000] {processor.py:186} INFO - Started process (PID=3171) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:47:34.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:47:34.247+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:47:34.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:47:34.333+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:47:34.352+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:47:34.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:47:34.368+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:47:34.368+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:47:34.383+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.152 seconds
+[2024-11-06T01:48:04.483+0000] {processor.py:186} INFO - Started process (PID=3181) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:48:04.486+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:48:04.489+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:48:04.488+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:48:04.584+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:48:04.602+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:48:04.602+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:48:04.624+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:48:04.623+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:48:04.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.163 seconds
+[2024-11-06T01:48:34.818+0000] {processor.py:186} INFO - Started process (PID=3190) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:48:34.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:48:34.821+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:48:34.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:48:34.911+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:48:34.929+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:48:34.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:48:34.952+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:48:34.952+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:48:34.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.154 seconds
+[2024-11-06T01:49:05.178+0000] {processor.py:186} INFO - Started process (PID=3199) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:49:05.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:49:05.189+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:49:05.189+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:49:05.273+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:49:05.289+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:49:05.289+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:49:05.307+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:49:05.307+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:49:05.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.147 seconds
+[2024-11-06T01:49:35.486+0000] {processor.py:186} INFO - Started process (PID=3208) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:49:35.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:49:35.491+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:49:35.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:49:35.583+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:49:35.606+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:49:35.605+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:49:35.623+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:49:35.623+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:49:35.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.157 seconds
+[2024-11-06T01:50:05.813+0000] {processor.py:186} INFO - Started process (PID=3217) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:50:05.822+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:50:05.824+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:50:05.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:50:05.910+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:50:05.926+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:50:05.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:50:05.943+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:50:05.943+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:50:05.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.151 seconds
+[2024-11-06T01:50:36.064+0000] {processor.py:186} INFO - Started process (PID=3226) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:50:36.073+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:50:36.075+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:50:36.074+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:50:36.164+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:50:36.189+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:50:36.188+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:50:36.210+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:50:36.209+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:50:36.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.167 seconds
+[2024-11-06T01:51:06.422+0000] {processor.py:186} INFO - Started process (PID=3235) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:51:06.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:51:06.432+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:51:06.432+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:51:06.521+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:51:06.537+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:51:06.536+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:51:06.553+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:51:06.553+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:51:06.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.153 seconds
+[2024-11-06T01:51:36.749+0000] {processor.py:186} INFO - Started process (PID=3244) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:51:36.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:51:36.753+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:51:36.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:51:36.840+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:51:36.857+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:51:36.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:51:36.874+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:51:36.874+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:51:36.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.145 seconds
+[2024-11-06T01:52:07.062+0000] {processor.py:186} INFO - Started process (PID=3253) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:52:07.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:52:07.066+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:52:07.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:52:07.163+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:52:07.183+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:52:07.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:52:07.205+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:52:07.204+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:52:07.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.164 seconds
+[2024-11-06T01:52:37.392+0000] {processor.py:186} INFO - Started process (PID=3262) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:52:37.401+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:52:37.404+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:52:37.403+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:52:37.529+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:52:37.562+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:52:37.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:52:37.594+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:52:37.593+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:52:37.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.243 seconds
+[2024-11-06T01:53:07.706+0000] {processor.py:186} INFO - Started process (PID=3271) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:53:07.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:53:07.717+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:53:07.717+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:53:07.801+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:53:07.817+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:53:07.816+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:53:07.832+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:53:07.832+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:53:07.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.146 seconds
+[2024-11-06T01:53:38.018+0000] {processor.py:186} INFO - Started process (PID=3280) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:53:38.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:53:38.026+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:53:38.024+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:53:38.143+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:53:38.174+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:53:38.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:53:38.195+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:53:38.195+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:53:38.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.208 seconds
+[2024-11-06T01:54:08.408+0000] {processor.py:186} INFO - Started process (PID=3289) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:54:08.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:54:08.418+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:54:08.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:54:08.510+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:54:08.530+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:54:08.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:54:08.551+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:54:08.551+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:54:08.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.164 seconds
+[2024-11-06T01:54:38.690+0000] {processor.py:186} INFO - Started process (PID=3298) to work on /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:54:38.699+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/stock_market_summary.py for tasks to queue
+[2024-11-06T01:54:38.700+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:54:38.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:54:38.786+0000] {processor.py:925} INFO - DAG(s) 'stock-market-summary' retrieved from /opt/airflow/dags/stock_market_summary.py
+[2024-11-06T01:54:38.802+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:54:38.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-06T01:54:38.818+0000] {logging_mixin.py:190} INFO - [2024-11-06T01:54:38.818+0000] {dag.py:4180} INFO - Setting next_dagrun for stock-market-summary to 2024-11-05 15:00:00+00:00, run_after=2024-11-06 15:00:00+00:00
+[2024-11-06T01:54:38.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/stock_market_summary.py took 0.145 seconds
